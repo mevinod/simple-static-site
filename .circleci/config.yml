@@ -6,6 +6,6 @@ jobs:
 
     steps:
       - checkout
-      - run:
-          name: Copy files to server
-          command: scp -r -o StrictHostKeyChecking=no * ssh_user@server.com:/var/www/html  #Using key. Put in the key in CircieCI
+#      - run:
+#          name: Copy files to server
+#          command: scp -r -o StrictHostKeyChecking=no * ssh_user@server.com:/var/www/html  #Using key. Put in the key in CircieCI
